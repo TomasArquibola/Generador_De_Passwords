@@ -47,12 +47,4 @@ El proyecto se compone de los siguientes archivos:
 
 ## Créditos
 
-Este proyecto fue desarrollado por [Tu Nombre o Alias] como un generador de contraseñas simple y fácil de usar.
-
-## Licencia
-
-[Aquí podrías incluir una licencia de código abierto si lo deseas, por ejemplo, MIT License]
-
----
-
-¡Espero que este `README.md` sea útil para tu proyecto! Puedes personalizarlo aún más con información adicional que consideres relevante.
+Este proyecto fue desarrollado por Tomás Arquíbola Rivarola como un generador de contraseñas simple y fácil de usar.
