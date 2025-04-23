@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente más moderna */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e6e6e6; /* Fondo más suave */
+    margin: 0;
+    padding: 20px; /* Espacio alrededor para pantallas pequeñas */
+    box-sizing: border-box; /* Para que el padding no afecte el ancho */
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px; /* Más espacio interno */
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada y suave */
+    text-align: center;
+    width: 95%; /* Mayor ancho en pantallas pequeñas */
+    max-width: 500px; /* Límite de ancho máximo */
+}
+
+h1 {
+    color: #2c3e50; /* Color de texto más elegante */
+    margin-bottom: 30px;
+    font-size: 2.2em; /* Tamaño de fuente más grande */
+    font-weight: 500; /* Peso de fuente más ligero */
+}
+
+.options {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 12px;
+    color: #34495e; /* Color de etiqueta más oscuro */
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.options input[type="checkbox"] {
+    margin-right: 8px;
+    vertical-align: middle; /* Alineación vertical */
+}
+
+.length {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between; /* Espacio entre label e input */
+}
+
+.length label {
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.length input[type="number"] {
+    width: 80px;
+    padding: 10px;
+    border: 1px solid #bdc3c7; /* Borde más claro */
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.output {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.output input[type="text"] {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #2c3e50;
+    background-color: #ecf0f1; /* Fondo más claro para el input */
+    font-family: monospace; /* Fuente monoespaciada para la contraseña */
+}
+
+.output button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3498db; /* Color azul más llamativo */
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+.output button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* Ligeramente más grande al pasar el ratón */
+}
+
+.output button:active {
+    transform: scale(0.98); /* Ligeramente más pequeño al hacer clic */
+}
+
+.security-indicator {
+    background-color: #e0e0e0; /* Fondo gris claro */
+    height: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.security-indicator .bar {
+    height: 100%;
+    width: 0%;
+    background-color: #2ecc71; /* Verde por defecto */
+    border-radius: 6px;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.security-indicator span {
+    display: block;
+    text-align: center;
+    color: #777;
+    font-size: 0.95em;
+    margin-top: 5px;
+}
