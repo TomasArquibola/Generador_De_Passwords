@@ -1,4 +1,4 @@
-# Generador de Contraseñas Minimalista
+# Generador de Contraseñas
 
 Este es un sencillo generador de contraseñas web con una interfaz intuitiva y minimalista. Permite a los usuarios generar contraseñas seguras personalizando la longitud y los tipos de caracteres a incluir.
 
