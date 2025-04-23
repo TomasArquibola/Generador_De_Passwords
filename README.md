@@ -37,13 +37,13 @@ El proyecto se compone de los siguientes archivos:
 * CSS
 * JavaScript
 
-## Posibles Mejoras Futuras
+## Mejoras del Generador
 
-* Opción para excluir caracteres similares (por ejemplo, 'i' y 'l', '0' y 'O').
-* Generación de contraseñas más complejas con patrones específicos.
-* Historial de contraseñas generadas (con precaución en cuanto a la seguridad).
-* Temas de diseño (claro/oscuro).
-* Integración con un backend para guardar preferencias del usuario (opcional).
+* **Exclusión de Caracteres Similares:** Implementar una opción para evitar la inclusión de caracteres que puedan confundirse fácilmente (por ejemplo, 'i' y 'l', '0' y 'O').
+* **Generación con Patrones Específicos:** Añadir la posibilidad de generar contraseñas basadas en patrones definidos por el usuario (por ejemplo, "palabra-número-símbolo").
+* **Historial de Contraseñas (Opcional):** Incorporar una función para guardar un historial de las contraseñas generadas, con advertencias claras sobre la seguridad de almacenar esta información.
+* **Temas de Diseño:** Permitir a los usuarios cambiar la apariencia visual del generador con diferentes temas (por ejemplo, claro y oscuro).
+* **Persistencia de Preferencias (Opcional):** Integrar un backend (o almacenamiento local del navegador) para recordar las preferencias del usuario (tipos de caracteres seleccionados, longitud) entre sesiones.
 
 ## Créditos
 
